@@ -1,3 +1,20 @@
+#main-navbar
+{
+  background-color: blue;
+  overflow: hidden;
+}
+
+
+#navbar-container
+{
+  float: left
+}
+
+#navbar-container ul li
+{
+  float: left;
+}
+
 #sidebar 
 {
   position: fixed;

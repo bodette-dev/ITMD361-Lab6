@@ -1,3 +1,4 @@
+/*Code for centered navigation bar*/
 #main-navbar
 {
   background-color: blue;
@@ -44,6 +45,7 @@
   text-decoration: none;
 }
 
+/*Code for vertical sidebar*/
 #sidebar 
 {
   position: fixed;

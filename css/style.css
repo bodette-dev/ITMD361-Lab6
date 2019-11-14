@@ -2,7 +2,6 @@
 {
   background-color: blue;
   overflow: hidden;
-  position: relative;
 }
 
 #navbar-container
@@ -10,6 +9,7 @@
   float: left;
   position: relative;
   left: 50%;
+  width: 100%;
 }
 
 #navbar-container ul
@@ -22,14 +22,14 @@
   right: 50%;
 }
 
-#navbar-container li
+#navbar-container ul li
 {
-  float: left;
+  float: left; 
+  position: relative; 
 }
 
 #navbar-container ul li a
 {
-  width: 100%;
   padding: 10px 20px; 
 }
 
@@ -54,12 +54,12 @@
   padding: 15px 0;
 }
 
-#sidebar-container a
+#sidebar-container ul li a
 {
   color: #fff;
 }
 
-#sidebar-container a:hover
+#sidebar-container ul li a:hover
 {
   background-color: #000;
 }

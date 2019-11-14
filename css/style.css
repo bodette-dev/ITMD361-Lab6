@@ -9,7 +9,6 @@
 {
   float: left;
   position: relative;
-  left: 50%;
   width: 100%;
 }
 
@@ -18,14 +17,16 @@
   list-style-type: none;
   margin: 0;
   padding: 0;
+  left: 50%;
   float: left;
   position: relative;
-  right: 50%;
 }
 
 #navbar-container ul li
 {
+  right: 50%;
   float: left; 
+  position: relative; 
 }
 
 #navbar-container ul li a:hover

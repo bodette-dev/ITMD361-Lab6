@@ -2,15 +2,28 @@
 {
   background-color: blue;
   overflow: hidden;
+  position: relative;
 }
-
 
 #navbar-container
 {
   float: left
 }
 
-#navbar-container ul li
+#navbar-container ul
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  float: left;
+}
+
+#navbar-container li
+{
+  float: left;
+}
+
+#navbar-container a
 {
   float: left;
 }

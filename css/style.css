@@ -2,6 +2,7 @@
 {
   background-color: blue;
   overflow: hidden;
+  position: relative;
 }
 
 #navbar-container
@@ -25,7 +26,6 @@
 #navbar-container ul li
 {
   float: left; 
-  position: relative; 
 }
 
 #navbar-container ul li a:hover

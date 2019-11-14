@@ -7,7 +7,9 @@
 
 #navbar-container
 {
-  float: left
+  float: left;
+  position: relative;
+  left: 50%;
 }
 
 #navbar-container ul
@@ -16,6 +18,8 @@
   margin: 0;
   padding: 0;
   float: left;
+  position: relative;
+  right: 50%;
 }
 
 #navbar-container li
@@ -23,16 +27,17 @@
   float: left;
 }
 
-#navbar-container a
+#navbar-container ul li a
 {
-  float: left;
+  width: 100%;
+  padding: 10px 20px; 
 }
 
 #sidebar 
 {
   position: fixed;
   right: 0%;
-  background-color: #000;
+  background-color: red;
   height: 100%;
   width: 20%;
 }
@@ -56,7 +61,7 @@
 
 #sidebar-container a:hover
 {
-  background-color: red;
+  background-color: #000;
 }
 
 #sidebar-container ul li a

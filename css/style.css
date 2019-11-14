@@ -28,9 +28,19 @@
   position: relative; 
 }
 
+#navbar-container ul li a:hover
+{
+  display: block;
+  background-color: #000;
+  text-decoration: underline overline;
+}
+
 #navbar-container ul li a
 {
   padding: 10px 20px; 
+  display: block;
+  color: #fff;
+  text-decoration: none;
 }
 
 #sidebar 
